@@ -1,0 +1,24 @@
+certifi==2020.6.20
+cycler==0.10.0
+fastcache==1.1.0
+gmpy2==2.0.8
+imageio @ file:///tmp/build/80754af9/imageio_1594161405741/work
+kiwisolver==1.2.0
+llvmlite==0.33.0+1.g022ab0f
+matplotlib @ file:///tmp/build/80754af9/matplotlib-base_1592846008246/work
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+mpmath==1.1.0
+numba==0.50.1
+numpy==1.18.5
+olefile==0.46
+opencv-python==4.3.0.36
+Pillow @ file:///tmp/build/80754af9/pillow_1594307295532/work
+pyparsing==2.4.7
+python-dateutil==2.8.1
+scipy @ file:///tmp/build/80754af9/scipy_1592930511789/work
+sip==4.19.13
+six==1.15.0
+sympy @ file:///tmp/build/80754af9/sympy_1594236545715/work
+tornado==6.0.4

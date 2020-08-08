@@ -1,0 +1,107 @@
+{
+    "steps" : {
+        "type" : "int",
+        "help" : "Edit this line to change the time steps",
+        "default" : 300000},
+
+    "lattice_x" : {
+        "type": "int",
+        "help": "lattices in x direction; edit this line to change the size",
+        "default": 256},
+
+    "lattice_y" : {
+        "type": "int",
+        "help": "lattices in y direction; edit this line to change the size",
+        "default": 8},
+
+    "rho" : {
+        "type": "float",
+        "help": "density of the PCM",
+        "default": 1.0},
+
+    "Delta_alfa" : {
+        "type": "float",
+        "help": "thermal diffusivity ratio",
+        "default": 10.0},
+
+    "T_i" : {
+        "type": "float",
+        "help": "low temperature",
+        "default": -1.0},
+
+    "T_b" : {
+        "type": "float",
+        "help": "high temperature",
+        "default": 1.0},
+
+    "T_m" : {
+        "type": "float",
+        "help": "melting temperature",
+        "default": 0.0},
+
+    "T_s" : {
+        "type": "float",
+        "help": "temperatura where solid starts",
+        "default": -0.02},
+
+    "T_l" : {
+        "type": "float",
+        "help": "temperature where liquid starts",
+        "default": 0.02},
+
+
+    "alpha_s" : {
+        "type": "float",
+        "help": "thermal diffusivity of solid",
+        "default": 0.002},
+
+    "poros" : {
+        "type": "float",
+        "help": "porosity",
+        "default": 1.0},
+
+    "sigma" : {
+        "type": "float",
+        "help": "thermal capacity ratio",
+        "default": 1.0},
+
+    "Cpl" : {
+        "type": "float",
+        "help": "specific heat of liquid",
+        "default": 1.0},
+
+    "Cps" : {
+        "type": "float",
+        "help": "specific heat of solid",
+        "default": 1.0},
+
+    "w_test" : {
+        "type": "float",
+        "help": "constant of D2Q5 MRT-LB model",
+        "default": -2.0},
+
+    "St" : {
+        "type": "float",
+        "help": "Stefan number",
+        "default": 1.0},
+
+    "F_0" : {
+        "type": "float",
+        "help": "Fourier number",
+        "default": 0.01},
+
+    "H" : {
+        "type": "float",
+        "help": "characteristic leght",
+        "default": 256.0},
+
+    "delta_x" : {
+        "type": "float",
+        "help": "space step",
+        "default": 1.0},
+
+    "delta_t" : {
+        "type": "float",
+        "help": "time step",
+        "default": 1.0}
+}

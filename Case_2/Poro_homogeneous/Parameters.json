@@ -1,0 +1,116 @@
+{
+    "steps" : {
+        "type" : "int",
+        "help" : "Edit this line to change the time steps",
+        "default" : 50000},
+
+    "lattice_x" : {
+        "type": "int",
+        "help": "lattices in x direction; edit this line to change the size",
+        "default": 256},
+
+    "lattice_y" : {
+        "type": "int",
+        "help": "lattices in y direction; edit this line to change the size",
+        "default": 256},
+
+    "H" : {
+        "type": "int",
+        "help": "characteristic leght",
+        "default": 256},
+
+    "rho_o" : {
+        "type": "float",
+        "help": "density of the PCM",
+        "default": 1.0},
+
+    "T_o" : {
+        "type": "float",
+        "help": "Initial temperature",
+        "default": 20.0},
+
+    "T_h" : {
+        "type": "float",
+        "help": "high temperature",
+        "default": 45.0},
+
+    "T_m" : {
+        "type": "float",
+        "help": "melting temperature",
+        "default": 29.78},
+
+    "T_c" : {
+        "type": "float",
+        "help": "cold temperatura",
+        "default": 20.0},
+
+    "poros" : {
+        "type": "float",
+        "help": "porosity",
+        "default": 0.385},
+
+    "sigma_l" : {
+        "type": "float",
+        "help": "thermal capacity ratio",
+        "default": 0.8604},
+        
+    "sigma_s" : {
+        "type": "float",
+        "help": "thermal capacity ratio",
+        "default": 0.8352},
+
+    "Cpl" : {
+        "type": "float",
+        "help": "specific heat of liquid",
+        "default": 1.0},
+
+    "Cps" : {
+        "type": "float",
+        "help": "specific heat of solid",
+        "default": 1.0},
+
+    "w_test" : {
+        "type": "float",
+        "help": "constant of D2Q5 MRT-LB model",
+        "default": -2.0},
+
+    "St" : {
+        "type": "float",
+        "help": "Stefan number",
+        "default": 0.1241},
+
+    "Fo" : {
+        "type": "float",
+        "help": "Fourier number",
+        "default": 1.829},
+
+    "Ma" : {
+        "type": "float",
+        "help": "Mach number",
+        "default": 0.1},
+        
+    "Da" : {
+        "type": "float",
+        "help": "Darcy number",
+        "default": 1.37e-5},
+
+    "J" : {
+        "type": "float",
+        "help": "Viscosity ratio",
+        "default": 1.0},
+
+    "Pr" : {
+        "type": "float",
+        "help": "Prandtl number",
+        "default": 0.0208},
+
+    "Lambda" : {
+        "type": "float",
+        "help": "efective termal difusivity ratitio respect to the liquid difusivity",
+        "default": 0.2719},
+
+    "Ra" : {
+        "type": "float",
+        "help": "Rayleight number",
+        "default": 8.409e5}
+}
