@@ -37,7 +37,7 @@ if __name__=='__main__':
 	##################################################################
 	logger.debug("Loading txt file of temperature")
 	try:
-		matriz = np.loadtxt('T_.txt')
+		matriz = np.loadtxt('Results/T_.txt')
 	except Exception as e:
 		logger.critical("No se pudo cargar el archico: ")
 		sys.exit()
@@ -106,5 +106,5 @@ if __name__=='__main__':
 	plt.ylim(-1.2, 1)
 	plt.xlabel('x/H')
 	plt.legend()
-	plt.savefig("AnVsNum.png")
+	plt.savefig("Results/AnVsNum.png")
 	plt.show()

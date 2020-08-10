@@ -125,6 +125,6 @@ if __name__ == '__main__':
     ################################################
     #### Save results of simulation in txt format
     ################################################
-    np.savetxt('Perfo_.txt', Perfo)         # Save in txt the performance
-    np.savetxt('T_.txt', T, fmt='%.6f')     # Save in txt the temperature
-    np.savetxt('f_l_.txt', f_l, fmt='%.3f') # Save in txt liquid fraction
+    np.savetxt('Results/Perfo_.txt', Perfo)         # Save in txt the performance
+    np.savetxt('Results/T_.txt', T, fmt='%.6f')     # Save in txt the temperature
+    np.savetxt('Results/f_l_.txt', f_l, fmt='%.3f') # Save in txt liquid fraction

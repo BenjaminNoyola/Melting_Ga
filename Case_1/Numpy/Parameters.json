@@ -2,7 +2,7 @@
     "steps" : {
         "type" : "int",
         "help" : "Edit this line to change the time steps",
-        "default" : 300000},
+        "default" : 10000},
 
     "lattice_x" : {
         "type": "int",
