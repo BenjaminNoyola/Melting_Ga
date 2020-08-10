@@ -125,6 +125,6 @@ if __name__ == '__main__':
 	print ("Temperature= ", T)
 
 	logger.debug("save results in txt format")
-	np.savetxt('Performance_.txt',Perfo) # Save performance
-	np.savetxt('T_.txt', T,fmt='%.6f'  ) # Save temperature
-	np.savetxt('f_l_.txt', f_l,fmt='%.3f') # Save liquid fraction
+	np.savetxt('Results/Performance_.txt',Perfo) # Save performance
+	np.savetxt('Results/T_.txt', T,fmt='%.6f'  ) # Save temperature
+	np.savetxt('Results/f_l_.txt', f_l,fmt='%.3f') # Save liquid fraction
