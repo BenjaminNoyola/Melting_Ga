@@ -2,4 +2,6 @@ This simple code obtain a graphic to compare analytic solution vs numeric soluti
 
 run:
 
-python an_vs_num_grafico.py
+1.- pip install requirements.txt
+
+2.- python an_vs_num_grafico.py
